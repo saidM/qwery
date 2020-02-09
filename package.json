@@ -1,0 +1,32 @@
+{
+  "name": "qwerty",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint .",
+    "test": "jest --detectOpenHandles --forceExit"
+  },
+  "keywords": [
+    "postgres",
+    "pg",
+    "postgresql",
+    "sql",
+    "pg-promise"
+  ],
+  "author": "Saïd Mimouni <sayid.mimouni@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "pg-promise": "^10.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "^25.1.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "description": "SQL"
+}
